@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="400" viewBox="0 0 300 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #e3f1c5;
+        font-size: 200px;
+        font-family: HiraKakuProN-W3, Hiragino Kaku Gothic ProN;
+        opacity: 0.352;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="長方形_152" data-name="長方形 152" class="cls-1" width="300" height="400" transform="translate(140 3348)"/>
+    </clipPath>
+  </defs>
+  <g id="マスクグループ_2" data-name="マスクグループ 2" class="cls-2" transform="translate(-140 -3348)">
+    <g id="グループ_47" data-name="グループ 47">
+      <rect id="長方形_12" data-name="長方形 12" class="cls-1" width="300" height="400" transform="translate(140 3348)"/>
+      <text id="_1" data-name="1" class="cls-3" transform="translate(374 3502)"><tspan x="-65.7" y="0">1</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f2e7dc;
+  font-family: "A P-OTF 秀英角ゴシック銀 StdN", sans-serif;
+  color: #5f4a4a;
+}
+
+header {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 3px solid skyblue; */
+}
+#logo {
+  margin-top: 20px;
+  margin-left: 20px;
+  /* border: 1px solid tomato; */
+}
+nav {
+  width: 636px;
+  margin: auto 0;
+  /* border: 1px solid tomato; */
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+nav li {
+  width: 100px;
+  height: 30px;
+  padding-top: 5px;
+  list-style-type: none;
+  background-color: #b9d483;
+  /* border: 1px solid tomato; */
+}
+nav li a {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+nav li a:visited,
+a:active {
+  color: white;
+}
+
+#main_wrap {
+  width: 100%;
+  height: 290vh;
+  background-color: #faf3ea;
+}
+main {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 60px;
+  /* border: 3px solid skyblue; */
+}
+#title {
+  color: #5f4a4a;
+  font-size: 30px;
+  text-align: center;
+  width: 400px;
+  background: #f3e7dd;
+  padding: 10px;
+  margin: 40px auto 90px;
+}
+form {
+  font-size: 22px;
+  width: 1000px;
+  height: 230vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  /* border: 1px solid tomato; */
+}
+#form_top {
+  padding-top: 20px;
+  padding-bottom: 70px;
+  /* border: 1px solid tomato; */
+}
+.form_sample {
+  width: 850px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin: 0 auto 20px;
+  /* border: 1px solid tomato; */
+}
+.form_label {
+  width: 300px;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  /* border: 1px solid tomato; */
+}
+.form_input {
+  font-size: 20px;
+  border-radius: 3px;
+  /* margin-left: 20px; */
+  padding: 0 10px;
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  color: #5f4a4a;
+  border: 1px solid #5f4a4a;
+}
+.form_input_p {
+  font-size: 20px;
+  border-radius: 3px;
+  /* margin-left: 20px; */
+  padding: 0 10px;
+  width: 140px;
+  height: 50px;
+  color: #5f4a4a;
+  border: 1px solid #5f4a4a;
+}
+#form_middle {
+  /* border: 1px solid tomato; */
+}
+#payment {
+  margin: 140px auto 0;
+  border-top: 2px solid #f2e7dc;
+  border-bottom: 2px solid #f2e7dc;
+}
+#card_wrap {
+  background-color: whitesmoke;
+  width: 650px;
+  height: 330px;
+  margin: 0 auto 40px;
+  /* border: 1px solid tomato; */
+}
+.card_sample {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.card_label {
+  width: 200px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 30px;
+  /* border: 1px solid tomato; */
+}
+.card_input {
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 0 4px;
+  width: 100%;
+  max-width: 350px;
+  height: 40px;
+  color: #5f4a4a;
+  border: 1px solid #5f4a4a;
+}
+.card_rbtn {
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+.form_radio {
+  margin-top: 40px;
+}
+.form_Btn {
+  color: #5f4a4a;
+  font-size: 24px;
+  font-weight: bold;
+  background: #d1d1d1;
+  width: 200px;
+  border-radius: 40px;
+  margin: 100px auto 0;
+  padding: 14px 0;
+  display: block;
+  letter-spacing: 0.05em;
+  border: none;
+}
+.form_Btn a {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  color: #5f4a4a;
+  text-decoration: none;
+}
+
+footer {
+  width: 1000px;
+  margin: 0 auto;
+  /* border: 3px solid skyblue; */
+}
+#footer_wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 832px;
+  margin: 24px auto 0;
+  /* border: 1px solid tomato; */
+}
+#footer_text {
+  /* border: 1px solid tomato; */
+}
+#company {
+  font-size: 16px;
+  font-weight: bold;
+}
+#address {
+  font-size: 14px;
+}
+#telephone_number {
+  color: #7cb05b;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+#copyright {
+  text-align: center;
+  margin-bottom: 24px;
+}
