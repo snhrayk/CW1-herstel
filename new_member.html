@@ -1,178 +1,291 @@
 <!DOCTYPE html>
-<html lang = "ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>新規会員登録</title>
-    <link href="css/new_member.css" rel="stylesheet">
-</head>
-<body>
+    <link href="css/new_member.css" rel="stylesheet" />
+  </head>
+  <body>
     <header>
-        <h1 id="logo"><a href="index2.html"><img src="images/logo.png" alt="herstellogo" width="330" height="70"></a></h1>
-        <nav>
-            <ul>
-                <li><a href="index2.html#about">herstelとは?</a></li>
-                <li><a href="index2.html#features">特長</a></li>
-                <li><a href="index2.html#howto">ご利用方法</a></li>
-                <li><a href="menu.html">商品メニュー</a></li>
-                <li><a href="inquiry.html">お問い合わせ</a></li>
-                <li><a href="mypage_login.html">会員登録</a></li>
-            </ul>
-        </nav>
-    </header> 
+      <h1 id="logo">
+        <a href="index.html"
+          ><img src="images/logo.png" alt="herstellogo" width="330" height="70"
+        /></a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html#about">herstelとは?</a></li>
+          <li><a href="index.html#features">特長</a></li>
+          <li><a href="index.html#howto">ご利用方法</a></li>
+          <li><a href="menu.html">商品メニュー</a></li>
+          <li><a href="inquiry.html">お問い合わせ</a></li>
+          <li><a href="mypage_login.html">会員登録</a></li>
+        </ul>
+      </nav>
+    </header>
     <div id="main_wrap">
-        <main>
-            <h1 id="title">新規会員登録</h1>
-            <form>
-                <div id="form_top">
-                    <div class="form_sample">
-                        <p class="form_label"><label for="mailaddress">メールアドレス</label></p>
-                        <input type="email" class="form_input" id="mailaddress"  placeholder="herstel@email.com">
-                    </div>
-                    <div class="form_sample">
-                        <p class="form_label"><label for="password">パスワード</label></p>
-                        <input type="password" class="form_input" id="password"  placeholder="●●●●●●●●●●●">
-                    </div>
-                    <div class="form_sample">
-                        <p class="form_label"><label for="password_check">パスワード確認</label></p>
-                        <input type="password" class="form_input" id="password_check"  placeholder="●●●●●●●●●●●">
-                    </div>
+      <main>
+        <h1 id="title">新規会員登録</h1>
+        <form>
+          <div id="form_top">
+            <div class="form_sample">
+              <p class="form_label">
+                <label for="mailaddress">メールアドレス</label>
+              </p>
+              <input
+                type="email"
+                class="form_input"
+                id="mailaddress"
+                placeholder="herstel@email.com"
+              />
+            </div>
+            <div class="form_sample">
+              <p class="form_label"><label for="password">パスワード</label></p>
+              <input
+                type="password"
+                class="form_input"
+                id="password"
+                placeholder="●●●●●●●●●●●"
+              />
+            </div>
+            <div class="form_sample">
+              <p class="form_label">
+                <label for="password_check">パスワード確認</label>
+              </p>
+              <input
+                type="password"
+                class="form_input"
+                id="password_check"
+                placeholder="●●●●●●●●●●●"
+              />
+            </div>
+          </div>
+          <div id="form_middle">
+            <div class="form_sample">
+              <p class="form_label"><label for="name">氏名</label></p>
+              <input
+                type="text"
+                class="form_input"
+                id="name"
+                placeholder="例）神戸　花子"
+              />
+            </div>
+            <div class="form_sample">
+              <p class="form_label"><label for="name_fri">ふりがな</label></p>
+              <input
+                type="text"
+                class="form_input"
+                id="name_fri"
+                placeholder="例）こうべ　はなこ"
+              />
+            </div>
+            <div class="form_sample">
+              <p class="form_label"><label for="birthday">生年月日</label></p>
+              <input type="date" class="form_input_p" id="birthday" />
+            </div>
+            <div class="form_sample">
+              <p class="form_label">
+                <label for="address_number">郵便番号</label>
+              </p>
+              <input
+                type="text"
+                maxlength="7"
+                class="form_input"
+                id="address_number"
+                placeholder="000-0000"
+              />
+            </div>
+            <div class="form_sample">
+              <p class="form_label">
+                <label for="prefectures">都道府県</label>
+              </p>
+              <select name="pref" class="form_input_p">
+                <option value="" selected id="prefectures">都道府県</option>
+                <option value="1">北海道</option>
+                <option value="2">青森県</option>
+                <option value="3">岩手県</option>
+                <option value="4">宮城県</option>
+                <option value="5">秋田県</option>
+                <option value="6">山形県</option>
+                <option value="7">福島県</option>
+                <option value="8">茨城県</option>
+                <option value="9">栃木県</option>
+                <option value="10">群馬県</option>
+                <option value="11">埼玉県</option>
+                <option value="12">千葉県</option>
+                <option value="13">東京都</option>
+                <option value="14">神奈川県</option>
+                <option value="15">新潟県</option>
+                <option value="16">富山県</option>
+                <option value="17">石川県</option>
+                <option value="18">福井県</option>
+                <option value="19">山梨県</option>
+                <option value="20">長野県</option>
+                <option value="21">岐阜県</option>
+                <option value="22">静岡県</option>
+                <option value="23">愛知県</option>
+                <option value="24">三重県</option>
+                <option value="25">滋賀県</option>
+                <option value="26">京都府</option>
+                <option value="27">大阪府</option>
+                <option value="28">兵庫県</option>
+                <option value="29">奈良県</option>
+                <option value="30">和歌山県</option>
+                <option value="31">鳥取県</option>
+                <option value="32">島根県</option>
+                <option value="33">岡山県</option>
+                <option value="34">広島県</option>
+                <option value="35">山口県</option>
+                <option value="36">徳島県</option>
+                <option value="37">香川県</option>
+                <option value="38">愛媛県</option>
+                <option value="39">高知県</option>
+                <option value="40">福岡県</option>
+                <option value="41">佐賀県</option>
+                <option value="42">長崎県</option>
+                <option value="43">熊本県</option>
+                <option value="44">大分県</option>
+                <option value="45">宮崎県</option>
+                <option value="46">鹿児島県</option>
+                <option value="47">沖縄県</option>
+              </select>
+            </div>
+            <div class="form_sample">
+              <p class="form_label">
+                <label for="municipalities">市区町村</label>
+              </p>
+              <input
+                type="text"
+                class="form_input"
+                id="municipalities"
+                placeholder="大阪市北区"
+              />
+            </div>
+            <div class="form_sample">
+              <p class="form_label"><label for="street_address">番地</label></p>
+              <input
+                type="text"
+                class="form_input"
+                id="street_address"
+                placeholder="中崎西0-0-0"
+              />
+            </div>
+            <div class="form_sample">
+              <p class="form_label">
+                <label for="call_number">電話番号</label>
+              </p>
+              <input
+                type="tel"
+                class="form_input"
+                id="call_number"
+                placeholder="000-0000-0000"
+              />
+            </div>
+          </div>
+          <div id="payment">
+            <div class="form_sample">
+              <p class="form_label">支払い方法</p>
+            </div>
+            <div class="form_radio">
+              <div>
+                <label>
+                  <input
+                    type="radio"
+                    name="job"
+                    value="cancel"
+                    class="card_rbtn"
+                  />
+                  クレジットカード
+                </label>
+                <div id="card_wrap">
+                  <div class="card_sample">
+                    <p class="card_label">
+                      <label for="card_company">カード会社</label>
+                    </p>
+                    <input
+                      type="text"
+                      class="card_input"
+                      id="card_company"
+                      placeholder="VISA"
+                    />
+                  </div>
+                  <div class="card_sample">
+                    <p class="card_label">
+                      <label for="card_number">カード番号</label>
+                    </p>
+                    <input
+                      type="password"
+                      maxlength="16"
+                      class="card_input"
+                      id="card_number"
+                      placeholder="●●●●●●●●●●●●●●●●"
+                    />
+                  </div>
+                  <div class="card_sample">
+                    <p class="card_label">
+                      <label for="card_limit">カード有効期限</label>
+                    </p>
+                    <input type="date" class="card_input" id="card_limit" />
+                  </div>
+                  <div class="card_sample">
+                    <p class="card_label">
+                      <label for="card_name">カード名義</label>
+                    </p>
+                    <input
+                      type="text"
+                      class="card_input"
+                      id="card_name"
+                      placeholder="HANAKO KOUBE"
+                    />
+                  </div>
+                  <div class="card_sample">
+                    <p class="card_label">
+                      <label for="security_code">セキュリティコード</label>
+                    </p>
+                    <input
+                      type="password"
+                      maxlength="4"
+                      class="card_input"
+                      id="security_code"
+                      placeholder="●●●"
+                    />
+                  </div>
                 </div>
-                <div id="form_middle">
-                    <div class="form_sample">
-                        <p class="form_label"><label for="name">氏名</label></p>
-                        <input type="text" class="form_input" id="name" placeholder="例）神戸　花子">
-                    </div>
-                    <div class="form_sample">
-                        <p class="form_label"><label for="name_fri">ふりがな</label></p>
-                        <input type="text" class="form_input" id="name_fri" placeholder="例）こうべ　はなこ">
-                    </div>
-                    <div class="form_sample">
-                        <p class="form_label"><label for="birthday">生年月日</label></p>
-                        <input type="date" class="form_input_p" id="birthday">
-                    </div>
-                    <div class="form_sample">
-                        <p class="form_label"><label for="address_number">郵便番号</label></p>
-                        <input type="text" maxlength="7" class="form_input" id="address_number" placeholder="000-0000">
-                    </div>
-                    <div class="form_sample">
-                        <p class="form_label"><label for="prefectures">都道府県</label></p>
-                        <select name="pref" class="form_input_p">
-                            <option value="" selected id="prefectures">都道府県</option>
-                            <option value="1">北海道</option>
-                            <option value="2">青森県</option>
-                            <option value="3">岩手県</option>
-                            <option value="4">宮城県</option>
-                            <option value="5">秋田県</option>
-                            <option value="6">山形県</option>
-                            <option value="7">福島県</option>
-                            <option value="8">茨城県</option>
-                            <option value="9">栃木県</option>
-                            <option value="10">群馬県</option>
-                            <option value="11">埼玉県</option>
-                            <option value="12">千葉県</option>
-                            <option value="13">東京都</option>
-                            <option value="14">神奈川県</option>
-                            <option value="15">新潟県</option>
-                            <option value="16">富山県</option>
-                            <option value="17">石川県</option>
-                            <option value="18">福井県</option>
-                            <option value="19">山梨県</option>
-                            <option value="20">長野県</option>
-                            <option value="21">岐阜県</option>
-                            <option value="22">静岡県</option>
-                            <option value="23">愛知県</option>
-                            <option value="24">三重県</option>
-                            <option value="25">滋賀県</option>
-                            <option value="26">京都府</option>
-                            <option value="27">大阪府</option>
-                            <option value="28">兵庫県</option>
-                            <option value="29">奈良県</option>
-                            <option value="30">和歌山県</option>
-                            <option value="31">鳥取県</option>
-                            <option value="32">島根県</option>
-                            <option value="33">岡山県</option>
-                            <option value="34">広島県</option>
-                            <option value="35">山口県</option>
-                            <option value="36">徳島県</option>
-                            <option value="37">香川県</option>
-                            <option value="38">愛媛県</option>
-                            <option value="39">高知県</option>
-                            <option value="40">福岡県</option>
-                            <option value="41">佐賀県</option>
-                            <option value="42">長崎県</option>
-                            <option value="43">熊本県</option>
-                            <option value="44">大分県</option>
-                            <option value="45">宮崎県</option>
-                            <option value="46">鹿児島県</option>
-                            <option value="47">沖縄県</option>
-                          </select>                          
-                    </div>
-                    <div class="form_sample">
-                        <p class="form_label"><label for="municipalities">市区町村</label></p>
-                        <input type="text" class="form_input" id="municipalities" placeholder="大阪市北区">
-                    </div>
-                    <div class="form_sample">
-                        <p class="form_label"><label for="street_address">番地</label></p>
-                        <input type="text" class="form_input" id="street_address" placeholder="中崎西0-0-0">
-                    </div>
-                    <div class="form_sample">
-                        <p class="form_label"><label for="call_number">電話番号</label></p>
-                        <input type="tel" class="form_input" id="call_number" placeholder="000-0000-0000">
-                    </div>
-                </div>
-                <div id="payment">
-                    <div class="form_sample">
-                        <p class="form_label">支払い方法</p>
-                    </div>
-                    <div class="form_radio">
-                        <div>
-                            <label>
-                                <input type="radio" name="job" value="cancel" class="card_rbtn">
-                                クレジットカード
-                            </label>
-                            <div id="card_wrap">
-                                <div class="card_sample">
-                                    <p class="card_label"><label for="card_company">カード会社</label></p>
-                                    <input type="text" class="card_input" id="card_company" placeholder="VISA">
-                                </div>
-                                <div class="card_sample">
-                                    <p class="card_label"><label for="card_number">カード番号</label></p>
-                                    <input type="password" maxlength="16" class="card_input" id="card_number" placeholder="●●●●●●●●●●●●●●●●">
-                                </div> 
-                                <div class="card_sample">
-                                    <p class="card_label"><label for="card_limit">カード有効期限</label></p>
-                                    <input type="date" class="card_input" id="card_limit">
-                                </div>            
-                                <div class="card_sample">
-                                    <p class="card_label"><label for="card_name">カード名義</label></p>
-                                    <input type="text" class="card_input" id="card_name" placeholder="HANAKO KOUBE">
-                                </div>            
-                                <div class="card_sample">
-                                    <p class="card_label"><label for="security_code">セキュリティコード</label></p>
-                                    <input type="password" maxlength="4" class="card_input" id="security_code" placeholder="●●●">
-                                </div>            
-                            </div>
-                        </div>
-                        <label>
-                            <input type="radio" name="job" value="cancel" class="card_rbtn">
-                            代金引換え
-                        </label>
-                    </div>
-                </div>
-                <button class="form_Btn"><a href="new_member_check.html">確認画面へ</a></button>
-            </form>
-        </main>
+              </div>
+              <label>
+                <input
+                  type="radio"
+                  name="job"
+                  value="cancel"
+                  class="card_rbtn"
+                />
+                代金引換え
+              </label>
+            </div>
+          </div>
+          <button class="form_Btn">
+            <a href="new_member_check.html">確認画面へ</a>
+          </button>
+        </form>
+      </main>
     </div>
     <footer>
-        <div id="footer_wrap">
-            <h1><a href="index2.html"><img src="images/logo_index.png" alt="herstelロゴ"></a></h1>
-            <div id="footer_text">
-                <p id="address"><span id="company">本社</span> 〒530-0015 大阪府大阪市北区中崎西2丁目3番35号</p>
-                <p id="telephone_number">➿0120-000-0000</p>
-            </div>
+      <div id="footer_wrap">
+        <h1>
+          <a href="index.html"
+            ><img src="images/logo_index.png" alt="herstelロゴ"
+          /></a>
+        </h1>
+        <div id="footer_text">
+          <p id="address">
+            <span id="company">本社</span> 〒530-0015
+            大阪府大阪市北区中崎西2丁目3番35号
+          </p>
+          <p id="telephone_number">➿0120-000-0000</p>
         </div>
-        <p id="copyright">Copyright&copy;2022herstel</p>
+      </div>
+      <p id="copyright">Copyright&copy;2022herstel</p>
     </footer>
-</body>
+  </body>
 </html>

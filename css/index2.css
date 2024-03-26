@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f2e7dc;
   font-family: "A P-OTF 秀英角ゴシック銀 StdN", sans-serif;
   color: #5f4a4a;
 }
-
 header {
   width: 1000px;
   margin: 0 auto;
